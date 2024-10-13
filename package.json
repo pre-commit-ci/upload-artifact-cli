@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "package": "ncc build index.ts --minify"
+  },
+  "dependencies": {
+    "@actions/artifact": "^2.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@vercel/ncc": "^0.38.2",
+    "typescript": "^5.6.3"
+  }
+}
